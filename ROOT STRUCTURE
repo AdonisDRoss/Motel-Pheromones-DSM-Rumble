@@ -1,0 +1,84 @@
+Motel-Pheromones/
+│
+├── README.md
+├── DESIGN_DOC.md
+├── GAMEPLAY_OVERVIEW.md
+├── CONTROLS.md
+├── SYSTEMS.md
+├── SPRITE_SPEC.md
+├── MAP_DESIGN.md
+├── AI_DESIGN.md
+├── COMBAT_SYSTEM.md
+├── COOP_SYSTEM.md
+├── SINGLEPLAYER_SYSTEM.md
+├── ARENA_BATTLE_MODE.md
+│
+├── /docs
+│   ├── full_gdd.md
+│   ├── balancing_notes.md
+│   ├── faction_lore.md
+│
+├── /src
+│   ├── /core
+│   │   ├── GameLoop.cs
+│   │   ├── StateMachine.cs
+│   │   ├── InputBuffer.cs
+│   │
+│   ├── /combat
+│   │   ├── CombatSystem.cs
+│   │   ├── HitboxSystem.cs
+│   │   ├── ComboSystem.cs
+│   │   ├── GrooveSystem.cs
+│   │
+│   ├── /ai
+│   │   ├── EnemyAI.cs
+│   │   ├── BossAI.cs
+│   │   ├── CoopAI.cs
+│   │   ├── MemoryAI.cs
+│   │
+│   ├── /world
+│   │   ├── GridSystem.cs
+│   │   ├── NodeSystem.cs
+│   │   ├── WorldSimulation.cs
+│   │
+│   ├── /economy
+│   │   ├── ShopSystem.cs
+│   │   ├── FoodSystem.cs
+│   │   ├── TicketSystem.cs
+│   │
+│   ├── /modes
+│   │   ├── SinglePlayerMode.cs
+│   │   ├── CoopMode.cs
+│   │   ├── ArenaBattleMode.cs
+│   │   ├── SurvivalMode.cs
+│   │
+│   ├── /characters
+│   │   ├── PlayerController.cs
+│   │   ├── EnemyController.cs
+│   │   ├── BossController.cs
+│   │
+│   ├── /animation
+│   │   ├── SpriteAnimator.cs
+│   │   ├── AnimationState.cs
+│   │
+│   ├── /ui
+│   │   ├── HUD.cs
+│   │   ├── Minimap.cs
+│   │   ├── GrooveUI.cs
+│
+├── /assets
+│   ├── /sprites
+│   │   ├── /players
+│   │   ├── /enemies
+│   │   ├── /bosses
+│   │   ├── /ui
+│   │
+│   ├── /maps
+│   ├── /audio
+│
+├── /tools
+│   ├── SpriteSheetValidator.py
+│   ├── GridBuilderTool.py
+│   ├── HitboxVisualizer.py
+│
+└── /build
